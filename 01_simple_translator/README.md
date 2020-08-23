@@ -12,7 +12,7 @@ My first React app
 
 ## Demo 
  <a>
-    <img src="/01.gif" alt="Demo" >
+    <img src="01.gif"  >
   </a>
 
 ## Links
