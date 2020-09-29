@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <div>
+        <h1>Simple HTML + .JS </h1>
+    </div>
+    <div>
+        <label>Text:</label>
+        <input type="text" id="txtName_id" />
+        <button type="submit" onclick="sampleFunction()"> Add</button>
+        <br>
+        <ul id="name-list"></ul>
+
+    </div>
+    <script>
+        const list = document.getElementById('name-list')
+
+        function sampleFunction() {
+            var valueTxt = document.getElementById('txtName_id').value;
+
+            const span = document.createElement('span')
+            span.innerHTML = valueTxt
+
+            const li = document.createElement('li')
+            li.appendChild(span)
+            list.appendChild(li)
+        }
+    </script>
+
+</body>
+
+</html>
