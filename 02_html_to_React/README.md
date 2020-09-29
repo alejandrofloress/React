@@ -12,7 +12,7 @@
 
 ## Demo 
  <a>
-    <img src="01_simpleHtml/SimpleHtml.gif"  >
+    <img src="01_simpleHtml/SimpleHtmlJS.gif"  >
   </a>
 
 ## Links
